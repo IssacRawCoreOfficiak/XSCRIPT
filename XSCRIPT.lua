@@ -1,6 +1,6 @@
 local PabloLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/BatuKvi123/PabloLibV3/main/PabloLibV3"))()
 local Window = PabloLib:Create(
-"XScript", -- Título da janela
+"Sexy +18", -- Título da janela
 "Enabled", -- Janela arrastável
 "p" -- Tecla para abrir/fechar
 )
