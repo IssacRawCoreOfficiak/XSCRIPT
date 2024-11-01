@@ -10,26 +10,14 @@ local Main = Window:CreateTab("Main")
 -- Label
 Main:CreateLabel("Made by Zythronis, Issac")
 
--- TextBox para WalkSpeed
-local walkSpeedBox = Main:CreateTextBox("WalkSpeed", "Digite a velocidade", function() end)
-
--- Botão para confirmar WalkSpeed
-Main:CreateButton("Confirm Speed", function()
-local walkSpeed = tonumber(walkSpeedBox:GetText())
-if walkSpeed then
-game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = walkSpeed
-end
+-- Slider para WalkSpeed
+Main:CreateSlider("WalkSpeed", 16, 500, 16, function(value)
+game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = value
 end)
 
--- TextBox para JumpPower
-local jumpPowerBox = Main:CreateTextBox("JumpPower", "Digite o pulo", function() end)
-
--- Botão para confirmar JumpPower
-Main:CreateButton("Confirm Jump", function()
-local jumpPower = tonumber(jumpPowerBox:GetText())
-if jumpPower then
-game.Players.LocalPlayer.Character.Humanoid.JumpPower = jumpPower
-end
+-- Slider para JumpPower
+Main:CreateSlider("JumpPower", 50, 500, 50, function(value)
+game.Players.LocalPlayer.Character.Humanoid.JumpPower = value
 end)
 
 -- Botão XHUB
