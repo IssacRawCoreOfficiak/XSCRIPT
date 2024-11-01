@@ -22,11 +22,6 @@ Main:CreateButton("ChatBypass", function()
 loadstring(game:HttpGet("https://pastebin.com/raw/T4FEyvHH"))()
 end)
 
---Botão Masturbation
-Main:CreateButton("Masturbation FE"), function()
-loadstring(game:HttpGet("https://pastebin.com/raw/Y4L0R8PM"))()
-end)
-
 -- Toggle para Shaders
 Main:CreateToggle("Shaders", function(state)
 if state then
