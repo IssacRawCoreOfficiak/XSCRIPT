@@ -27,6 +27,11 @@ Main:CreateButton("Masturbation FE"), function()
 loadstring(game:HttpGet("https://pastebin.com/raw/Y4L0R8PM"))()
 end)
 
+--Botão PP
+Main:CreateButton("PENIS FE"), function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/minecrafttotem/yzhs./main/Fe%20pp%20script%20very%20fun"))()
+end)
+
 -- Toggle para Shaders
 Main:CreateToggle("Shaders", function(state)
 if state then
