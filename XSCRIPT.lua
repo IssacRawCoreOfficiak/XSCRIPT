@@ -7,16 +7,13 @@ local Window = PabloLib:Create(
 
 local Main = Window:CreateTab("Main")
 
--- Label
-Main:CreateLabel("Made by Zythronis, Issac")
-
 -- Slider para WalkSpeed
-Main:CreateSlider("WalkSpeed", 16, 500, 16, function(value)
+Main:CreateSlider("WalkSpeed", 0, 1000, function(value)
 game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = value
 end)
 
 -- Slider para JumpPower
-Main:CreateSlider("JumpPower", 50, 500, 50, function(value)
+Main:CreateSlider("JumpPower", 0, 1000, function(value)
 game.Players.LocalPlayer.Character.Humanoid.JumpPower = value
 end)
 
@@ -59,7 +56,7 @@ for _,v in pairs(ActiveTracks) do
 v:Stop()
 end
 wait()
-if game.Players.LocalPlayer.Character.Humanoid.Health == 0 então
+if game.Players.LocalPlayer.Character.Humanoid.Health == 0 then
 _G.TrollActive = false
 end
 end
