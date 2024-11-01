@@ -18,8 +18,8 @@ game.Players.LocalPlayer.Character.Humanoid.JumpPower = value
 end)
 
 -- Botão XHUB
-Main:CreateButton("XHUB", function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/blackheartedcurse/punkz-Scripts/main/SolaraVersionRagdoll.lua"))()
+Main:CreateButton("ChatBypass", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/T4FEyvHH"))()
 end)
 
 -- Toggle para Shaders
