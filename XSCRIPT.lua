@@ -102,10 +102,4 @@ hrp.RotVelocity = Vector3.new(100000, 100000, 100000)
 end
 end)
 
--- Nova janela "Credits"
-local Credits = Window:CreateTab("Credits")
-
--- Label na janela "Credits"
-Credits:CreateLabel("Animations by IssacRawCore, Staffs: Issac")
-
 PabloLib:Init()
