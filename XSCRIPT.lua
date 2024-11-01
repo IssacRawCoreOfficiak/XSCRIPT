@@ -22,9 +22,9 @@ Main:CreateButton("ChatBypass", function()
 loadstring(game:HttpGet("https://pastebin.com/raw/T4FEyvHH"))()
 end)
 
---Botão Pendulum
+--Botão HatHUB
 Main:CreateButton("Sex (BETA)", function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Tescalus/Pendulum-Hubs-Source/main/Pendulum%20Hub%20V5.lua"))()
+loadstring(game:HttpGet("https://pastebin.com/raw/6tshcUd2"))()
 end)
 
 -- Toggle para Shaders
