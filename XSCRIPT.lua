@@ -90,16 +90,4 @@ k:Play()
 k:AdjustSpeed(1)
 end)
 
--- Botão Fling
-Main:CreateButton("Fling", function()
-local player = game.Players.LocalPlayer
-local char = player.Character
-local hrp = char:FindFirstChild("HumanoidRootPart")
-
-if hrp then
-hrp.Velocity = Vector3.new(0, 0, 0)
-hrp.RotVelocity = Vector3.new(100000, 100000, 100000)
-end
-end)
-
 PabloLib:Init()
