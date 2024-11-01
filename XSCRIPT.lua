@@ -22,9 +22,9 @@ Main:CreateButton("ChatBypass", function()
 loadstring(game:HttpGet("https://pastebin.com/raw/T4FEyvHH"))()
 end)
 
---Botão HatHUB
-Main:CreateButton("Sex (BETA)", function()
-loadstring(game:HttpGet("https://pastebin.com/raw/6tshcUd2"))()
+--Botão Masturbation
+Main:CreateButton("Masturbation FE"), function()
+loadstring(game:HttpGet("https://pastebin.com/raw/Y4L0R8PM"))()
 end)
 
 -- Toggle para Shaders
